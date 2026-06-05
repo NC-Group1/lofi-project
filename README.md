@@ -2,7 +2,6 @@
 
 ![Frontend](https://img.shields.io/badge/Frontend-Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
 ![Backend](https://img.shields.io/badge/Backend-.NET_8_API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Auth](https://img.shields.io/badge/Auth-Supabase_JWT-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Database](https://img.shields.io/badge/Database-SQLite_/_SQL_Server-336791?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Design](https://img.shields.io/badge/Design-UML_/_Figma-000000?style=for-the-badge&logo=figma&logoColor=white)
 
@@ -28,6 +27,11 @@ Calico is designed as a real‑world, production‑style application featuring:
 
 * UML, Figma, and Canva‑based design planning
 
+# ♿ Accessibility
+
+We placed a strong focus on accessibility throughout the project.
+Calico supports full keyboard navigation and includes semantic markup and descriptive labels to improve screen‑reader compatibility. This ensures the application is usable by a wider range of users and provides a more inclusive experience.
+
 # 🧰 Full‑Stack Tech Summary
 
 | Layer | Technologies |
@@ -42,7 +46,8 @@ Calico is designed as a real‑world, production‑style application featuring:
 | **Design Tools** | Figma, Canva, Diagrams.net |
 
 # 🎵 Core Features (Full‑Stack)
-## Music & Media
+## 🎶 Music & Media
+
 * LoFi music discovery
 
 * Featured recommendations
@@ -51,7 +56,7 @@ Calico is designed as a real‑world, production‑style application featuring:
 
 * Playlist creation & management
 
-## Productivity Tools
+## ⏱️ Productivity Tools
 * Task timer
 
 * Project tracking
@@ -65,12 +70,10 @@ Calico is designed as a real‑world, production‑style application featuring:
 
 * Profile updates
 
-## System Features
+🛠️ System Features
 * Health checks (/health)
 
 * Swagger API documentation
-
-* Automatic DB creation/migration
 
 # 🏗️ Architecture (High‑Level)
 
@@ -111,25 +114,3 @@ SQLite / SQL Server
 * Canva UI Design
 
 (Links included in the individual frontend/backend READMEs.)
-
-# 📁 Project Structure (Full‑Stack)
-
-calico/
-├── frontend/
-│   ├── Components/
-│   ├── Pages/
-│   ├── Models/
-│   └── wwwroot/
-│
-├── backend/
-│   ├── Controllers/
-│   ├── Service/
-│   ├── Repository/
-│   ├── Database/
-│   ├── HealthChecks/
-│   └── Data Models/
-│
-└── tests/
-    ├── frontend-tests/
-    └── backend-tests/
-
